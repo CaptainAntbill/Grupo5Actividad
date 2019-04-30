@@ -5,15 +5,20 @@
         <title>Restar</title>
     </head>
     <body>
-        <form action="index.html">
-            <label>Número uno</label>
-            <input type="number" name="number1" value="0"> <br>
-            <span>-</span><br>
-            <label>Número dos</label>
-            <input type="number" name="number2" value="0"><br>
-            <button type="button" name="button">Calcular</button><br>
-            <label>Resultado</label>
-            <<input type="number" name="result" value="0">
-        </form>
+      <h1>Calcule la Resta</h1>
+      <p>Primer Digito</p>
+      <input type="text" name="num1" id="num1" />
+      <p>Segundo Digito</p>
+      <input type="text" name="num2" id="num2">
+      <p id="resultado">Resultado: </p>
+
+      <button type="button" onclick='
+      var casilla1=document.getElementById("num1");
+      var n1=casilla1.value;
+      var casilla2=document.getElementById("num2");
+      var n2=casilla2.value;
+      var resultado=document.getElementById("resultado");
+      resultado.innerHTML = "El resultado es: " + (parseInt(n1) - parseInt(n2));
+      '>Calcular</button>
     </body>
 </html>
