@@ -1,0 +1,26 @@
+body{
+    background-color:#838aea;
+}
+label{
+    font-size: 20px;
+    color: #250;
+    margin-left: 500;
+    width:130px;
+}
+h1{
+    margin-left: 40%;
+    color: #250;
+    font-size: 30px;
+}
+input{
+    width: 40px;
+    height: auto;
+}
+div{
+    background-color: #949ae8;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 1800px;
+    color: red;
+    font-size: 30px;
+}
