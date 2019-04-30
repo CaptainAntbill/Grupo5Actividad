@@ -3,7 +3,7 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 */
-/* 
+/*
     Created on : 08-mar-2019, 17:00:09
     Author     : Anthony Mejía
 */
@@ -27,7 +27,7 @@ and open the template in the editor.
 }
 
 .button {
-    background-color: #2FB290; 
+    background-color: #2FB290;
     border: none;
     color: white;
     padding: 13px 26px;
@@ -36,7 +36,7 @@ and open the template in the editor.
     display: inline-block;
     font-size: 14px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 3px;
@@ -44,7 +44,7 @@ and open the template in the editor.
 }
 
 .button1 {
-    background-color: #2FB290; 
+    background-color: #2FB290;
     border: none;
     color: white;
     padding: 9px 18px;
@@ -53,15 +53,15 @@ and open the template in the editor.
     display: inline-block;
     font-size: 11px;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; 
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 3px;
 }
 
 .button2 {
-    background-color:#2FB290; 
-    color: white; 
+    background-color:#2FB290;
+    color: white;
     border: 2px solid #008CBA;
 }
 
@@ -71,12 +71,12 @@ and open the template in the editor.
 }
 
 footer {
-    border-radius: 5px; 
-    display: flex; 
-    color: white; 
-    padding: 10px; 
-    margin: 3px; 
-    justify-content: space-between; 
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    justify-content: space-between;
     background-color: #333338
 }
 
@@ -107,28 +107,29 @@ tr:hover {background-color:#5F6F7A;}
 }
 
 nav{
-    border-radius: 5px; 
-    display: flex; 
-    color: white; 
-    padding: 10px; 
-    margin: 3px; 
-    justify-content: space-between; 
+    border-radius: 5px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    margin: 3px;
+    justify-content: space-between;
     background-color: #333338
-
+    font-size: 20px;
+    margin-left: 45px
 }
 
 aside{
-    background-color: #2FB290; 
-    border-radius: 5px; 
-    padding: 3px; 
+    background-color: #2FB290;
+    border-radius: 5px;
+    padding: 3px;
     margin: 3px;
 }
 
 main{
-    border: 1px black solid; 
-    border-radius: 5px; 
-    padding: 9px; 
-    margin: 3px; 
+    border: 1px black solid;
+    border-radius: 5px;
+    padding: 9px;
+    margin: 3px;
     width: 90%;
     background-color: #333338;
     overflow-y: auto
@@ -142,7 +143,7 @@ input[type=text] {
     border: 2px solid ;
     border-radius: 14px;
     text-align: center;
-   
+
 }
 
 .styled-select select {
@@ -156,6 +157,3 @@ input[type=text] {
    height: 34px;
    -webkit-appearance: none;
    }
-
-
-
