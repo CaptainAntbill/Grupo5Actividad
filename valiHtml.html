@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+
+    <form name="formulario" >
+    <!-- Nombre de usuario.
+         Campo obligatorio, entre 5-40 carácteres -->
+    Usuario: <input type="text" name="nombre" placeholder="Por ejemplo, Juan"
+                    minlength="5" maxlength="40" required>
+    <!-- Contraseña.
+         Campo obligatorio, mínimo 11 carácteres -->
+    Password: <input type="password" name="pass" placeholder="Contraseña"
+                    minlength="11" required>
+                    <button type="submit" name="button"></button>
+  </form>
+  <br>
+  <form name="formulario">
+  <!-- Modelo de coche
+       Campo obligatorio, opciones posibles: A1, A3, A4 y A15
+       Sólo se permiten letras y números -->
+  <input type="text" name="coche" placeholder="Su modelo de coche"
+         required pattern="A|a(1|3|4|15)"
+         title="Modelos posibles: A1, A3, A4 y A15">
+</form>
+  </body>
+</html>
